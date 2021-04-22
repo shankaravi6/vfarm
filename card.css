@@ -1,0 +1,99 @@
+
+
+/* Float four columns side by side */
+.column {
+  float:left;
+  width: 30%;
+  padding: 0 20px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin-left:100px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.mid-title{
+font-family:monospace;
+font-size:40px;
+letter-spacing:3px;
+text-decoration:underline;
+}
+
+/* Style the counter cards */
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color:white;
+}
+
+.card-head{
+  font-family:monospace;
+  font-size:18px;
+  letter-spacing:3px;
+
+}
+
+.card-text{
+  font-size:16px;
+  color:gray;
+  font-family:Lucida Sans;
+  font-weight: lighter;
+  line-height:8px;
+}
+
+/*Hover Effects*/
+.ccon{
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 200%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.ccon:hover .image {
+  opacity: 0.6;
+}
+
+.ccon:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  border:1px solid black;
+  color:black;
+  font-size:40px;
+  padding: 20px 30px;
+}
