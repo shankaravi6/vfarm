@@ -9,10 +9,10 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width:80%;
+  width:60%;
   transform: translate(-50%, -50%);
   color:white;
-  font-size:15px;
+  font-size:12px;
   font-family:"Calibri";
   font-weight:bolder;
 }
