@@ -1,0 +1,271 @@
+@media screen and (max-width: 970px) {
+.container {
+  position: relative;
+  color: white;
+
+}
+
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width:60%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size:12px;
+  font-family:"Calibri";
+  font-weight:bolder;
+}
+
+fieldset{
+border:5px solid white;
+padding:15px;
+margin: 2em 1em 1em;
+}
+
+
+.head-left {
+  position: absolute;
+  height:auto;
+  padding:20px;
+  font-size:28px;
+  top:64%;
+  left:30%;
+  font-family: monospace;
+  width:250px;
+  color:black;
+  visibility: hidden;
+}
+
+.head-right a{
+  position: absolute;
+  top:75%;
+  right:23%;
+  letter-spacing: 3px;
+  font-size:25px;
+  font-family:monospace;
+  transform: translate(-50%, -50%);
+  background-color:black;
+  color:white;
+  text-decoration: none;
+  text-align:center;
+  padding:20px;
+  visibility: hidden;
+}
+.head-right a:hover{
+  background-color: transparent;
+  border:2px solid black;
+  color:black;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top:60%;
+  visibility: hidden;
+}
+
+.mid-img{
+  width:100%;
+  height:530px;
+  filter:blur(4px);
+}
+
+.mid-con {
+  position: relative;
+  font-family: Arial;
+}
+
+.con-text {
+  position: absolute;
+  top: 50px;
+  left:48%;
+  font-size:12px;
+  transform: translate(-50%, -50%);
+  background-color: ;
+  color:black;
+  border:2px solid black;
+  padding:15px 40px;
+}
+.con-text2 {
+  position: absolute;
+  top:110px;
+  left:48%;
+  letter-spacing: 4px;
+  font-size:12px;
+  font-weight: bold;
+  font-family:monospace;
+  transform: translate(-50%, -50%);
+  background-color: ;
+  color:black;
+  padding:15px 75px;
+}
+.con-text3 {
+  position: absolute;
+  top:220px;
+  left:48%;
+  margin:auto;
+  letter-spacing: 3px;
+  font-size:10px;
+  font-family:Calibri;
+  transform: translate(-50%, -50%);
+  background-color: ;
+  color:black;
+  text-align:center;
+  padding:auto;
+}
+.con-text4 a{
+  position: absolute;
+  top:345px;
+  left:48%;
+  letter-spacing: 3px;
+  font-size:11px;
+  font-family:Calibri;
+  transform: translate(-50%, -50%);
+  background-color:black;
+  color:white;
+  text-decoration: none;
+  text-align:center;
+  padding:15px 15px;
+}
+.con-text4 a:hover{
+  background-color: transparent;
+  border:2px solid black;
+  color:black;
+  font-weight:bold;
+}
+.con-img {
+  position: absolute;
+  top:400px;
+  left:4%;
+  text-align: center;
+  background-color: ;
+  color:black;
+  font-size: 10px;
+  padding:5px 5px;
+}
+.con-img i{
+  font-size:50px;
+}
+.con-img2 {
+  position: absolute;
+  top:400px;
+  left:28%;
+  text-align: center;
+  background-color: ;
+  font-size: 10px;
+  color:black;
+  padding:5px 5px;
+}
+.con-img2 i{
+  font-size:50px;
+}
+.con-img3 {
+  position: absolute;
+  top:400px;
+  left:51%;
+  text-align: center;
+  background-color: ;
+  color:black;
+  font-size: 10px;
+  padding:5px 5px;
+}
+.con-img3 i{
+  font-size:50px;
+}
+.con-img4 {
+  position: absolute;
+  top:400px;
+  left:78%;
+  font-size: 10px;
+  text-align: center;
+  background-color: ;
+  color:black;
+  padding:5px 5px;
+}
+.con-img4 i{
+  font-size:50px;
+}
+.u-text a{
+  position: absolute;
+  top:700px;
+  left:9%;
+  text-align:center;
+  background-color:white ;
+  color:black;
+  font-size:25px;
+  width:80%;
+  font-family: monospace;
+  border:2px solid black;
+  padding:50px 120px;
+  visibility: hidden;
+}
+.adrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.adcol {
+  float: left;
+  width:100%;
+  padding:20px;
+}
+.adcol h1{
+style="letter-spacing:1px;
+font-size:8px;
+font-family:monospace;
+}
+.adcol2 {
+  float: right;
+  width:100%;
+  padding:20px;
+}
+
+.adcol li{
+  font-size:20px;
+  line-height:53px;
+}
+.vlc {
+  border-left: 2px solid black;
+  height: 250px;
+  position: absolute;
+  left:47%;
+  margin-left: -3px;
+  top:76%;
+  visibility: hidden;
+}
+
+footer {
+  height:360px;
+  background-color:#80ff80;
+  padding:60px;
+}
+
+.footer-border {
+  box-sizing: padding-box;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid  #80ff80;
+  border-bottom: 40px solid  #80ff80;
+}
+.foot-text {
+  position: absolute;
+  top:3220px;
+  left:81%;
+  font-size:20px;
+  transform: translate(-50%, -50%);
+  background-color: ;
+  color:black;
+  border:2px solid black;
+  padding:70px 68px;
+  visibility:hidden;
+
+}
