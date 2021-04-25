@@ -8,6 +8,7 @@
   float: left;
   width:50%;
   padding:100px;
+
 }
 .adcol2 {
   float: right;
@@ -15,6 +16,9 @@
   padding:80px;
 }
 
+.adcol h1{
+  font-family: monospace;
+}
 .adcol li{
   font-size:20px;
   line-height:53px;
