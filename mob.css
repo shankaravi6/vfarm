@@ -110,7 +110,7 @@ margin: 2em 1em 1em;
   left:50%;
   margin:auto;
   letter-spacing: 3px;
-  font-size:8px;
+  font-size:9px;
   font-family:Calibri;
   transform: translate(-50%, -50%);
   background-color: ;
@@ -120,7 +120,7 @@ margin: 2em 1em 1em;
 }
 .con-text4 a{
   position: absolute;
-  top:400px;
+  top:390px;
   left:50%;
   letter-spacing: 3px;
   font-size:11px;
