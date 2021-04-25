@@ -82,7 +82,7 @@ margin: 2em 1em 1em;
 .con-text {
   position: absolute;
   top: 50px;
-  left:50%;
+  left:48%;
   widht:75%;
   font-size:10px;
   transform: translate(-50%, -50%);
@@ -95,14 +95,14 @@ margin: 2em 1em 1em;
   position: absolute;
   top:110px;
   left:48%;
-  letter-spacing: 4px;
-  font-size:12px;
-  font-weight: bold;
+  letter-spacing:2px;
+  font-size:10px;
+  font-weight:bold;
   font-family:monospace;
   transform: translate(-50%, -50%);
   background-color: ;
   color:black;
-  padding:15px 75px;
+  padding:15px 65px;
 }
 .con-text3 {
   position: absolute;
