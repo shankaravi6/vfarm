@@ -82,7 +82,7 @@ margin: 2em 1em 1em;
 .con-text {
   position: absolute;
   top: 50px;
-  left:48%;
+  left:46%;
   widht:75%;
   font-size:10px;
   transform: translate(-50%, -50%);
@@ -96,7 +96,7 @@ margin: 2em 1em 1em;
   top:110px;
   left:48%;
   letter-spacing:2px;
-  font-size:10px;
+  font-size:8px;
   font-weight:bold;
   font-family:monospace;
   transform: translate(-50%, -50%);
@@ -147,9 +147,11 @@ margin: 2em 1em 1em;
   color:black;
   font-size: 10px;
   padding:5px 5px;
+    
 }
 .con-img i{
   font-size:50px;
+  visibility: :hidden;
 }
 .con-img2 {
   position: absolute;
@@ -160,9 +162,11 @@ margin: 2em 1em 1em;
   font-size: 10px;
   color:black;
   padding:5px 5px;
+  visibility: :hidden;
 }
 .con-img2 i{
   font-size:50px;
+  visibility: :hidden;
 }
 .con-img3 {
   position: absolute;
@@ -173,13 +177,16 @@ margin: 2em 1em 1em;
   color:black;
   font-size: 10px;
   padding:5px 5px;
+  visibility: :hidden;
 }
 .con-img3 i{
   font-size:50px;
+  visibility: :hidden;
 }
 .con-img4 {
   position: absolute;
   top:400px;
+  visibility: :hidden;
   left:78%;
   font-size: 10px;
   text-align: center;
@@ -189,6 +196,7 @@ margin: 2em 1em 1em;
 }
 .con-img4 i{
   font-size:50px;
+  visibility: :hidden;
 }
 .u-text a{
   position: absolute;
