@@ -214,16 +214,19 @@ margin: 2em 1em 1em;
   float: left;
   width:100%;
   padding:20px;
+  overflow: hidden;
 }
-.adcol h1{
-style="letter-spacing:1px;
-font-size:8px;
-font-family:monospace;
-}
+
+
 .adcol2 {
   float: right;
   width:100%;
   padding:20px;
+  overflow: hidden;
+}
+
+.adcol h1{
+  font-family: monospace;
 }
 
 .adcol li{
@@ -244,6 +247,7 @@ footer {
   height:360px;
   background-color:#80ff80;
   padding:60px;
+  overflow: hidden;
 }
 
 .footer-border {
@@ -256,8 +260,10 @@ footer {
   border-left: 50vw solid transparent;
   border-right: 50vw solid  #80ff80;
   border-bottom: 40px solid  #80ff80;
+  overflow: hidden;
 }
 .foot-text {
+  overflow: hidden;
   position: absolute;
   top:3220px;
   left:81%;
@@ -268,5 +274,4 @@ footer {
   border:2px solid black;
   padding:70px 68px;
   visibility:hidden;
-
 }
