@@ -82,8 +82,8 @@ margin: 2em 1em 1em;
 .con-text {
   position: absolute;
   top: 50px;
-  left:48%;
-  font-size:11px;
+  left:50%;
+  font-size:10px;
   transform: translate(-50%, -50%);
   background-color: ;
   color:black;
