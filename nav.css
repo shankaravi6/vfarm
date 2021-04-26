@@ -149,7 +149,7 @@ border:none;
   .nav-links .drop-menu{
     position: static;
     opacity: 1;
-    top: 65px;
+    top: 80px;
     visibility: visible;
     padding-left:20px;
     padding-top: px;
@@ -185,6 +185,8 @@ border:none;
   }
   .drop-menu li a{
     font-size: 15px;
+    padding-top: 10px;
+    font-weight: normal;
   }
   .drop-menu li a:hover{
     border-radius:0px;
