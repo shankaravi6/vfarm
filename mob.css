@@ -244,11 +244,12 @@ margin: 2em 1em 1em;
 }
 
 footer {
-  height:360px;
+  height:340px;
   background-color:#80ff80;
-  padding:30px;
+  padding:10px 60px;
   overflow: hidden;
 }
+
 
 .footer-border {
   box-sizing: padding-box;
